@@ -1,0 +1,189 @@
+
+body {
+  background-color: #EEEEEE;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.link {
+  margin-top: -120px;
+  padding-top: 120px;
+}
+
+.page-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #007765;
+}
+
+.navigaion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.nav>li {
+  padding-left: 11px;
+  margin-left: 11px;
+  position: relative;
+}
+
+.nav>li:first-child {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.nav>li::before {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+}
+
+.nav>li:first-child::before {
+  display: none;
+}
+
+.nav>li>a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(../images/head.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #FFFFFF;
+  padding: 160px 0;
+}
+
+.problem {
+  padding: 48px 0 80px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin: 0 0;
+}
+
+p {
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.slogan {
+  background-image: url(../images/blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 128px 0;
+}
+
+.slogan p {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0 163px;
+  align-items: center;
+}
+
+.introducing {
+  background-color: #FFFFFF;
+  padding: 48px 0 80px;
+}
+
+.introducing img {
+  float: left;
+  margin: 32px 32px 0 0;
+}
+
+.team {
+  padding: 48px 0 84px;
+}
+
+.team p {
+  margin: 0;
+}
+
+.team__elements {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.team__member {
+  text-align: center;
+  width: 33.3%;
+  padding-top: 58px;
+}
+
+.team__member img {
+  border-radius: 50%;
+}
+
+.team__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  padding-top: 12px;
+}
+
+.team__position {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+
+.footer {
+  background-color: #333333;
+}
+
+.footer p {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 50px 350px 62px;
+}
